@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    width: 360px;
+    height: 70%;
+    /* border: 1px solid black; */
+    border-radius: 10px;background-image:url("https://img.freepik.com/free-vector/realistic-clouds-abstract-composition-with-overcast-gray-clouds-sky_1284-33932.jpg?size=626&ext=jpg&ga=GA1.1.401885958.1705894891&semt=ais") ;
+    
+   
+    
+
+}
+.input-box{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.input-box input{
+    padding: 12px 50px 12px 10px;
+    font-size: 1rem;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    font-weight: 600;
+    background-color: rgb(181, 250, 250);
+}
+.input-box input:hover{
+    background-color: aliceblue;
+}
+.input-box button{
+    border-radius: 50px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+.input-box button i{
+    font-size: 1rem;
+}
+.input-box button:hover{
+color: rgb(251, 253, 253);
+background-color: rgb(253, 208, 6);
+
+}
+.image-wather{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.image-wather img{
+    width: 40%;
+
+}
+.wather-text{
+    width: 100%;
+   text-align: center;
+   margin-top: 20px;
+}
+.wather-details{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.humenity{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+.humenity i{
+    font-size: 1.2rem;
+}
+.Winde{
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+.Winde i{
+    font-size: 1.2rem;
+}
+.location-not-found{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.location-not-found img{
+    width: 80%;
+}
+.location-not-found h2{
+    margin: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+

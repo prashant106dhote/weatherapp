@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wather app</title>
+    <link rel="stylesheet" href="system.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-box">
+            <input type="text" placeholder="Enter the location">
+            <button class="searchbtn"><i class="ri-search-line"></i></button>
+        </div>
+        <!-- <div class="location-not-found">
+            <h2>Sorry! Location not found Try again.</h2>
+            <img src="404.png" alt="">
+        </div> -->
+      <div class="weather-body">
+          <h2 style="text-align: center; padding: 0 20px;font-size: 1.2rem;font-weight: 600;">Sorry! Location not found Try again.</h2>
+        <div class="image-wather">
+            <img src="/assets/clear.png" alt="" class="wather-img">
+        </div>
+
+`
+        <div class="wather-text">
+            <h2>0°C</h2>
+            <p id="discription">undefined</p>
+        </div>
+
+        <div class="wather-details ">
+            <div class="humenity">
+                <div class="humenity-icon">
+                    <i class="ri-water-percent-fill"></i>
+                </div>
+                <div class="humenity-text">
+                    <h2>0%</h2>
+                    <p>humenity</p>
+                </div>
+            </div>
+
+            <div class="Winde">
+                <div class="winde-icon">.
+                    <i class="ri-windy-fill"></i>
+                </div>
+                <div class="winde-text">
+                    <h2>0km/H</h2>
+                    <p>Wind Speed</p>
+                </div>
+                
+            </div>
+        </div>   
+    </div> 
+    </div>  
+    <script src="app.js"></script>  
+</body>
+
+</html>
