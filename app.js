@@ -23,7 +23,7 @@ searchbtn.addEventListener("click",async ()=>{
      const wather_data=await fetch(`${url}`).then(res=>res.json());
      console.log(wather_data);
      if(wather_data.cod=="404"){
-      wather_img.src ="/assets/404.png";
+      wather_img.src ="assets/404.png";
       h2.style.display = "block" 
 
       // location_not_found.style.display="flex";
@@ -39,19 +39,19 @@ searchbtn.addEventListener("click",async ()=>{
    winde_text.innerHTML=wather_data.wind.speed+`km/H`;
    switch(wather_data.weather[0].main){
     case "Clear":
-    wather_img.src ="/assets/clear.png";
+    wather_img.src ="assets/clear.png";
     break;
     case "Clouds":
-    wather_img.src ="/assets/cloud.png";
+    wather_img.src ="assets/cloud.png";
     break;
     case "Mist":
-    wather_img.src ="/assets/mist.png";
+    wather_img.src ="assets/mist.png";
     break;
     case "Rian":
-    wather_img.src ="/assets/rain.png";
+    wather_img.src ="assets/rain.png";
     break;
     case "Snow":
-    wather_img.src ="/assets/snow(1).png";
+    wather_img.src ="assets/snow(1).png";
     break;
    }
 
